@@ -1,0 +1,14 @@
+CompileFlags:
+  CompilationDatabase: c:\Users\jackp\OneDrive\Documents\04_Fourth Year
+    2026-2027\Fall 2026\CMPE460 - Interface & Digital Electronics\Car
+    Project\proj\CarProject\out\CarProject\MSPM0G3507\Debug
+
+---
+If:
+  PathMatch: .*\.(c|C|h)$
+CompileFlags:
+  Add:
+    - -include
+    - c:\Users\jackp\OneDrive\Documents\04_Fourth Year 2026-2027\Fall
+      2026\CMPE460 - Interface & Digital Electronics\Car
+      Project\proj\CarProject\out\CarProject\MSPM0G3507\Debug\compile_macros_c.h

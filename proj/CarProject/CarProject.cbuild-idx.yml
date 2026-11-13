@@ -1,0 +1,21 @@
+build-idx:
+  generated-by: csolution version 2.15.1+p3-gf46d68bf
+  target: MSPM0G3507
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: CarProject.csolution.yml
+  cbuild-run: out/CarProject+MSPM0G3507.cbuild-run.yml
+  tmpdir: tmp/MSPM0G3507/default
+  cprojects:
+    - cproject: CarProject/CarProject.cproject.yml
+  cbuilds:
+    - cbuild: out/CarProject/MSPM0G3507/Debug/CarProject.Debug+MSPM0G3507.cbuild.yml
+      project: CarProject
+      configuration: .Debug+MSPM0G3507
+      messages:
+        info:
+          - CarProject.cbuild-pack.yml - file is already up-to-date
+          - CarProject+MSPM0G3507.cbuild-run.yml - file generated successfully
+          - CarProject.Debug+MSPM0G3507.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.18.0
+        - pack: ARM::CMSIS-NN@4.1.0

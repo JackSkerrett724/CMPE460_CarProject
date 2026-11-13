@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507-complete.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-build.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-configure.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-database.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-download.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-executes.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-install.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-patch.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-test.rule"
+		},
+		{
+			"file" : "C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507/src/CarProject.Debug+MSPM0G3507-stamp/CarProject.Debug+MSPM0G3507-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CarProject.Debug+MSPM0G3507"
+		],
+		"name" : "CarProject.Debug+MSPM0G3507"
+	}
+}
