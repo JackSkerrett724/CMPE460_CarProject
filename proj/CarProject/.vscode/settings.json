@@ -1,3 +1,4 @@
+
 {
     "debug.hideSlowPreLaunchWarning": true,
     "debug.showInStatusBar": "never",
@@ -6,6 +7,6 @@
     "memory-inspector.groupings.MAUsPerGroup": 4,
     "memory-inspector.scrollingBehavior": "Auto-Append",
     "clangd.arguments": [
-        "--compile-commands-dir=c:\\Users\\jackp\\OneDrive\\Documents\\04_Fourth Year 2026-2027\\Fall 2026\\CMPE460 - Interface & Digital Electronics\\Car Project\\proj\\CarProject\\out\\CarProject\\MSPM0G3507\\Debug"
+        "--compile-commands-dir=${workspaceFolder}/out/CarProject/MSPM0G3507/Debug"
     ]
 }
