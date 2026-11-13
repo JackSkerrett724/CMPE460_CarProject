@@ -1,9 +1,0 @@
-# This is a generated file and its contents are an internal implementation detail.
-# The download step will be re-executed if anything in this file changes.
-# No other meaning or use of this file is supported.
-
-method=source_dir
-command=
-source_dir=C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CarProject.Debug+MSPM0G3507
-work_dir=
-

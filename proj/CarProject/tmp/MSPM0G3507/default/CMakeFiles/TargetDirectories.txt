@@ -1,8 +1,0 @@
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/database.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507-build.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507-configure.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507-executes.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/CarProject.Debug+MSPM0G3507-database.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/edit_cache.dir
-C:/Users/jackp/OneDrive/Documents/04_Fourth Year 2026-2027/Fall 2026/CMPE460 - Interface & Digital Electronics/Car Project/proj/CarProject/tmp/MSPM0G3507/default/CMakeFiles/rebuild_cache.dir
