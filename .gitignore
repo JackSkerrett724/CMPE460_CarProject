@@ -1,0 +1,22 @@
+# Build output
+out/
+tmp/
+build/
+
+# Compiled files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+
+# Debug/build artifacts
+*.d
+*.su
+*.cyclo
+*.gcda
+*.gcno
+
+# IDE temporary files
+.vscode/.browse.c_cpp.db*
