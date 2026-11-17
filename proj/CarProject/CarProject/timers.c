@@ -4,7 +4,7 @@
  * @brief   : Timers module file
  * @details : Timers initialization and interaction
  * 
- * @author 
+ * @author Jack Skerrett, Wil Salus
  * @date 
  * ******************************************************************************
 */

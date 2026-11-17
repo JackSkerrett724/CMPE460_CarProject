@@ -4,7 +4,7 @@
  * @brief   : Switches module c file
  * @details : Switches initialization and interaction
  * 
- * @author Jack Skerrett
+ * @author Jack Skerrett 
  * @date 8-31-2026 
  * ******************************************************************************
 */

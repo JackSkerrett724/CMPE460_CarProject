@@ -8,7 +8,7 @@
  *             Target     <-> Slave
  *             This changes register access from what the documentation specifies
  *
- * @author  Wil Salus
+ * @author  Wil Salus, Jack Skerrett
  * @date 		9/16/2026
  * ******************************************************************************
 */

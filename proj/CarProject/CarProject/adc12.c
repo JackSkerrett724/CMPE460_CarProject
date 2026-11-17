@@ -5,7 +5,7 @@
  * @details : ADC initialization and interaction
  * @note    : ADC does not require IOMUX interaction
  * 
- * @author 
+ * @author Jack Skerrett, Wil Salus
  * @date 
  * ******************************************************************************
 */

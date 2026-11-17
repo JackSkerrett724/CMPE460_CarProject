@@ -4,7 +4,7 @@
  * @brief   : UART module c file
  * @details : UART initialization and interaction
  * 
- * @author 
+ * @author Jack Skerrett, Wil Salus
  * @date 
  * ******************************************************************************
 */

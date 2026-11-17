@@ -20,8 +20,8 @@
 #include "i2c.h"
 #include "oled.h"
 
-unsigned char OLED_TEXT_ARR[1024];
-unsigned char OLED_GRAPH_ARR[1024];
+// unsigned char OLED_TEXT_ARR[1024];
+// unsigned char OLED_GRAPH_ARR[1024];
 
 static unsigned char num_str[95][16] = {
         {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00},//  0
