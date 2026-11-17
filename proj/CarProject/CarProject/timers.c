@@ -57,21 +57,21 @@ void TIMG0_init(uint32_t period, uint32_t prescaler)
     uint32_t load = period*(clk/(1000000*(prescaler+1))*(TIMG0->CLKDIV+1));
     TIMG0->COUNTERREGS.LOAD = load;
 
-  //  __disable_irq();
+   __disable_irq();
 
     // Clear Zero event interrupt
-    // TIMG0->CPU_INT.ICLR = GPTIMER_CPU_INT_ICLR_Z_CLR;
+     TIMG0->CPU_INT.ICLR = GPTIMER_CPU_INT_ICLR_Z_CLR;
 
     // // Enable Zero event interrupt
-    // TIMG0->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
+     TIMG0->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
 
     TIMG0->COMMONREGS.CCLKCTL |= GPTIMER_CCLKCTL_CLKEN_ENABLED;
 
 
     // Enable TIMG0 interrupt
-   // NVIC_EnableIRQ(TIMG0_INT_IRQn);
+    NVIC_EnableIRQ(TIMG0_INT_IRQn);
 
-  //  __enable_irq();
+    __enable_irq();
 
 }
 
@@ -101,15 +101,15 @@ void TIMG6_init(uint32_t period, uint32_t prescaler){
   uint32_t load = period*(clk/(1000*(prescaler+1))*(TIMG6->CLKDIV+1));
 	TIMG6->COUNTERREGS.LOAD = load;
 	
-	//	__disable_irq();
+		__disable_irq();
   
-	// TIMG6->CPU_INT.ICLR |= GPTIMER_CPU_INT_ICLR_Z_CLR;
-	// TIMG6->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
-  // TIMG6->COMMONREGS.CCLKCTL |= GPTIMER_CCLKCTL_CLKEN_ENABLED;
+	 TIMG6->CPU_INT.ICLR |= GPTIMER_CPU_INT_ICLR_Z_CLR;
+	 TIMG6->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
+   TIMG6->COMMONREGS.CCLKCTL |= GPTIMER_CCLKCTL_CLKEN_ENABLED;
 	 TIMG6 ->COUNTERREGS.CTRCTL |= GPTIMER_CTRCTL_EN_ENABLED;
-	//NVIC_ClearPendingIRQ(TIMG6_INT_IRQn);
-	//NVIC_EnableIRQ(TIMG6_INT_IRQn);
-	//__enable_irq();
+	NVIC_ClearPendingIRQ(TIMG6_INT_IRQn);
+	NVIC_EnableIRQ(TIMG6_INT_IRQn);
+	__enable_irq();
 
 }
 
@@ -131,13 +131,13 @@ void TIMG12_init(uint32_t period){
 	//uint64_t load = (((32000000*period)/(1000000))-1);
 	TIMG12->COUNTERREGS.LOAD = (uint32_t) period;
 	
-	//__disable_irq();
-	// TIMG12->CPU_INT.ICLR  |= GPTIMER_CPU_INT_ICLR_Z_CLR;
-  // TIMG12->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
+	__disable_irq();
+	 TIMG12->CPU_INT.ICLR  |= GPTIMER_CPU_INT_ICLR_Z_CLR;
+   TIMG12->CPU_INT.IMASK |= GPTIMER_CPU_INT_IMASK_Z_SET;
 	 TIMG12->COUNTERREGS.CTRCTL |= GPTIMER_CTRCTL_EN_ENABLED;
 	
-  	//NVIC_EnableIRQ(TIMG12_INT_IRQn);
-	//__enable_irq();
+  	NVIC_EnableIRQ(TIMG12_INT_IRQn);
+	__enable_irq();
 }
 
 

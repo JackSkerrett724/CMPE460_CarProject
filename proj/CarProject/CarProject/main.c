@@ -3,7 +3,7 @@
  * @file    : main.c
  * @brief   : Main run loop
  *
- * @author  : Wil Salus, Jack Skerrett
+ * @author  : Wil Salus
  * @date : 11/17/26
  * ******************************************************************************
 */
@@ -16,7 +16,6 @@
 #include "lab4/I2C/i2c.h"
 #include "lab5/switches.h"
 #include "lab5/camera.h"
-#include "camera.h"
 #include "lab6/timers.h"
 
 // --- CALIBRATION & PID CONSTANTS ---
@@ -24,14 +23,14 @@
 #define SERVO_MIN       0.050   // left
 #define SERVO_MAX       0.1   // right
 
-#define MOTOR_SPEED     0.255    // 15% duty cycle for Demo 1
-#define KP              0.00080 // Proportional gain 9:10PM 11/16 .00070 working mostly consistently
+#define MOTOR_SPEED     0.260   // 15% duty cycle for Demo 1
+#define KP              0.00090 // Proportional gain 9:10PM 11/16 .00070 working mostly consistently
 #define KD              0.00040 // Derivative gain 9:10PM 11/16 .00030 working mostly consistently
 
 #define EDGE_THRESHOLD  110   // Minimum brightness jump to count as a valid edge 8:55PM 11/16 150 went around both ways
 #define AMBIENT_CARPET_THRESHOLD 1000 //Floor vs track threshold (expect floor to be below this threshold)
 #define BANK_COUNT_THRESHOLD 100
-#define CONSEC_BANK_COUNT_THRESHOLD 250
+#define CONSEC_BANK_COUNT_THRESHOLD 200
 
 unsigned char OLED_TEXT_ARR[1024];
 unsigned char OLED_GRAPH_ARR[1024];
